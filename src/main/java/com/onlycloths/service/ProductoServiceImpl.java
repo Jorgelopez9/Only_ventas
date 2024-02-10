@@ -1,6 +1,6 @@
 package com.onlycloths.service;
 
-/*import java.util.Optional;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,4 +36,4 @@ public class ProductoServiceImpl implements ProductoService{
 		productoRepository.deleteById(id);
 	}
 
-}*/
+}
