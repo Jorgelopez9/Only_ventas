@@ -32,7 +32,7 @@
         <dependency>
     		<groupId>mysql</groupId>
     		<artifactId>mysql-connector-java</artifactId>
-    		<version>8.0.23</version> <!-- Ajusta la versión según la que estés utilizando -->
+    		<version>8.0.23</version>
 		</dependency>
 
         <!-- Usamos la dependencia javax.servlet -->
@@ -56,11 +56,11 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
